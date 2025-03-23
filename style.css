@@ -324,6 +324,11 @@ h3{
     margin-top: 20px;
     font-weight: 600;
 }
+.icons a {
+    display: inline-block;
+    text-decoration: none; /* Optional: Removes underline */
+}
+
 .icons .fa{
     color: #f44336;
     margin: 0 13px;
