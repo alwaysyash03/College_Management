@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" >
+    <title>Code Bytes Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#" class="logo">Yash.</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="clubs.html">CLUBS</a></li>
+                    <li><a href="papers.html">PAPERS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+
+        
+    </section>
+
+    
+<!--                -->
+<section>
+    <h2 class="abt">About Us</h2>
+    <div class="about-us">
+        
+        <div class="container">
+            <div class="about-row">
+                <div class="flex">
+                    
+                    <h3>Discover Our Team's Story</h3>
+                    <p>We are a team of passionate individuals who are dedicated to providing high-quality content and services to our students. Our company was founded in 2024 with the mission of making student's lives easier and more enjoyable. Since then, we have been working hard to develop innovative solutions that meet the needs of our students. </p>
+                    <a href="" class="about-btn"> Learn More</a>
+                </div>
+                <div class="flex">
+                    <img src="images/b3.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!------------------testimonials------------>
+<section class="testimonials">
+    <h1>What Our Clients Says</h1>
+    <p>Thank you for your thoughts and for taking the time to send me your valuable feedback.</p>
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="">
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudinut. Maecenas ut venenali, et dapibus purus.</p>
+                <h3>Yash Kumar</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="images/user1.jpg">
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudinut. Maecenas ut venenali, et dapibus purus.</p>
+                <h3>Christine Berkley</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!----------Call To Action---------->
+<section class="cta">
+    <h1>Enroll For Our Various Events and Courses <br>Anywhere From The World</h1>
+    <a href="" class="hero-btn">Contact Us</a>
+</section>
+
+
+<!---------------Fotter--------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est <br> solicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i href="https://www.instagram.com/always_yash_03/" class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Yash Kumar</p>
+</section>
+
+
+
+
+<!-------JavaScript for Toggle Menu--------->
+    <script>
+        var navLinks =  document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+
+        }
+    </script>
+</body>
+</html>

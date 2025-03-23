@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" >
+    <title>Code Bytes Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header-event">
+        <nav>
+            <a href="#" class="logo">Yash.</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="clubs.html">CLUBS</a></li>
+                    <li><a href="papers.html">PAPERS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        
+
+        </section>
+
+        <header>
+            <div class="text-box">
+               <h2>Exclusive events, priceless memories</h2>
+               <div class="line"></div>
+               <h1>A WONDERFUL GIFT</h1>
+               <a href="#" class="hero-btn">Learn More</a>
+           </div>
+   </header>
+<!--        ---------              -->
+<section class="events">
+    <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+    </div>
+    <div class="row">
+        <div class="col"><img src="./images/img1.png" alt="">
+          <h4>Event 1</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, cupiditate. Soluta omnis, minima possimus, voluptatibus deleniti aut incidunt temporibus quibusdam odio sapiente ex, quia quaerat. Commodi, repellat. Facilis, sapiente fugit.</p>
+          <a href="#" class="ctn">Learn More</a>
+         </div>
+         <div class="col"><img src="./images/img2.png" alt="">
+            <h4>Event 2</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, cupiditate. Soluta omnis, minima possimus, voluptatibus deleniti aut incidunt temporibus quibusdam odio sapiente ex, quia quaerat. Commodi, repellat. Facilis, sapiente fugit.</p>
+            <a href="#" class="ctn">Learn More</a>
+           </div>
+    </div>
+</section>
+
+<section class="explore">
+    <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, quos est laborum sunt pariatur quibusdam, error quasi porro delectus culpa fugiat natus iusto dolores autem!</p>
+    <a href="#" class="ctn">Learn More</a>
+    
+    </div>
+</section>
+
+<section class="tours">
+    <div class="row">
+        <div class="col content-col">
+            <h1>UPCOMING TOURS & DESTINATION</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt laudantium veniam vel asperiores ipsam facere quasi earum, reiciendis, quo voluptatem dolorem sint iusto voluptas harum.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+            <div class="image-gallery">
+                <img src="./images/img3.png" alt="">
+                <img src="./images/img4.png" alt="">
+                <img src="./images/img5.png" alt="">
+                <img src="./images/img6.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+
+
+
+
+
+
+
+
+<!---------------Fotter--------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est <br> solicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Yash Kumar</p>
+</section>
+
+
+
+
+<!-------JavaScript for Toggle Menu--------->
+    <script>
+        var navLinks =  document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+
+        }
+    </script>
+</body>
+</html>
